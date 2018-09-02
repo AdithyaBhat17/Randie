@@ -21,7 +21,7 @@ class App extends Component {
     return (
       <div className="App">
         {
-          this.state.passwords ? (
+          this.state.passwords.length ? (
             <div>
               <h1>Randie</h1>
               <p>A random password generator <br/> <span>ʕʘ̅͜ʘ̅ʔ</span>  </p>
