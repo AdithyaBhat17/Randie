@@ -1,0 +1,50 @@
+.App {
+  text-align: center;
+  font-family: 'Overpass Mono';
+}
+
+h1{
+  font-weight: bold;
+  font-family: 'Cutive Mono';
+  font-size: 3.5em;
+  margin-top: 15vh;
+}
+
+span{
+  font-size: 1.5em;
+  font-weight: bold
+}
+
+p{
+  margin-top:15px;
+  font-size: 18px
+}
+
+ul{
+  padding: 0;
+  display: block;
+  margin:10px auto;
+  list-style: none;
+  text-align: center;
+  font-size: 18px
+}
+
+li{
+  margin:5px auto
+}
+
+button{
+  font-family: 'Cutive Mono';
+  font-weight: bold;
+  font-size: 1.5em;
+  background-color:#fdd812cc;
+  padding: 5px 15px;
+  border:1px solid #000;
+  outline: none;
+  box-shadow: 0px 2px 6px rgba(0,0,0,0.2),2px 6px 8px rgba(0,0,0,0.2);
+  transition: box-shadow 0.2s;
+}
+
+button:hover{
+  box-shadow: 0 0 0 ;
+}
